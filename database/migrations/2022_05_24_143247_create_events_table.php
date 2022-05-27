@@ -20,6 +20,7 @@ return new class extends Migration
             $table->text('descricao');
             $table->string('city');
             $table->boolean('private');
+            $table->string('image');
         });
     }
 
